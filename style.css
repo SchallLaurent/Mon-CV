@@ -10,7 +10,6 @@ body {
 main {
     width: 80vw;
     margin: auto;
-   
 }
 
 header {
@@ -23,9 +22,9 @@ header {
     margin-bottom: 15px;
     padding: 0 20vh 0 20vh;
     justify-content: space-between;
+    box-shadow: 0.2em 0.2em 1em grey;   
     border-bottom-left-radius: 25px ;
-    border-bottom-right-radius: 25px ;
-    box-shadow: 0.2em 0.2em 1em grey;
+    border-bottom-right-radius: 25px ; 
 }
 
 .container-header {
@@ -62,13 +61,28 @@ nav {
     cursor: pointer;
 }
 
+.Coordonnees {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap : 20px;
+    background-color: #FF6000;
+    margin-bottom: 15px;
+    align-content: center;
+    height: 50px;
+    transition: 2s;
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 15px;
+}
+
 h1 {
     margin: 0;
 }
 
 .containerSection {
     display: flex;
-    gap: 15px;
+    gap: 5px;
 }
 
 section {
@@ -149,7 +163,6 @@ h3 {
 .title_section {
     display: flex;
     flex-direction: column;
-    
 }
 
 p {
@@ -249,9 +262,9 @@ footer p {
     nav {
         display: none;
     }
+    .formation,.hobbies {
+        border-radius: 0;
+    }
 }
 
-.formation,.hobbies {
-    border-radius: 0;
-}
 

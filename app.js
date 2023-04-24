@@ -41,3 +41,8 @@ const ResetStyleSection = document.querySelector(".container-header-work");
 ResetStyleSection.addEventListener("click", () => {
   location.reload();
 });
+
+const buttonCoordonnees = document.querySelector("#nav_button_coordonnees");
+buttonCoordonnees.addEventListener("click", () => {
+  document.querySelector(".Coordonnees").classList.toggle("displayNone");
+});
