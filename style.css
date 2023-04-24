@@ -38,7 +38,7 @@ nav {
     display: flex;
     height: 100%;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
 }
 
 .nav_button {
@@ -47,6 +47,16 @@ nav {
     color: black;
     background-color: #FF6000;
     cursor: pointer;
+}
+
+#nav_button_formation {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#nav_button_hobbies {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .nav_button:hover {
     color :white;
@@ -63,17 +73,9 @@ nav {
 
 .Coordonnees {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap : 20px;
     background-color: #FF6000;
-    margin-bottom: 15px;
-    align-content: center;
-    height: 50px;
-    transition: 2s;
-    width: 80vw;
-    margin-left: 10vw;
-    border-radius: 15px;
 }
 
 h1 {
@@ -181,6 +183,8 @@ p {
     border: none;
     cursor: pointer;
     width: calc(100%/3);
+    
+
 }
 
 .career_button,
@@ -207,12 +211,20 @@ footer {
     display: flex;
     justify-content: space-between;
     box-shadow: 0.2em 0.2em 1em grey;
-    height: 10vh;
     margin-top: 15px;
     padding: 0 20vh 0 20vh;
     border-top-left-radius: 25px ;
     border-top-right-radius: 25px ;
     background-color: #454545;
+}
+
+.Coordonnees {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #FF6000;
+    gap: 5px;
+    padding: 10px;
 }
 
 .footer_link a {
