@@ -82,6 +82,16 @@ section {
     transition: 2s;
 }
 
+.formation {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.hobbies {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
 .section_size {
     width: 100%;
 }
@@ -226,9 +236,10 @@ footer p {
         display: flex;
         flex-direction: column;
         padding: 15px;
-        align-items: center;
+        align-content: center;
         justify-content: center;
         font-size: small;
+        text-align: center;
     }
 
     main {
@@ -238,5 +249,9 @@ footer p {
     nav {
         display: none;
     }
+}
+
+.formation,.hobbies {
+    border-radius: 0;
 }
 
