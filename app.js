@@ -5,6 +5,9 @@ buttonFormation.addEventListener("click", () => {
   document.querySelector(".skills").classList.add("displayNone");
   document.querySelector(".hobbies").classList.add("displayNone");
   document.querySelector(".formation").classList.add("section_size");
+  for (let i = 0; i < 4; i++) {
+    document.querySelector("img").classList.add("imgOnClick");
+  }
 });
 
 const buttonCareer = document.querySelector("#nav_button_career");
@@ -36,7 +39,5 @@ buttonHobbies.addEventListener("click", () => {
 
 const ResetStyleSection = document.querySelector(".container-header-work");
 ResetStyleSection.addEventListener("click", () => {
-  for (let i = 0; i < 3; i++) {
-    document.querySelector("section").classList.remove("displayNone");
-  }
+  location.reload();
 });

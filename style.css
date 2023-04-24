@@ -23,7 +23,8 @@ header {
     margin-bottom: 15px;
     padding: 0 20vh 0 20vh;
     justify-content: space-between;
-    border-bottom: 1px black solid;
+    
+    box-shadow: 0.2em 0.2em 1em grey;
 }
 
 .container-header {
@@ -47,6 +48,11 @@ nav {
     background-color: #E8D5C4;
     cursor: pointer;
 }
+.nav_button:hover {
+    color :white;
+    background-color: #3A98B9;
+}
+
 
 .container-header-work {
     border-radius: 28% 72% 38% 62% / 51% 49% 51% 49%;
@@ -66,7 +72,7 @@ h1 {
 }
 
 section {
-    box-shadow: 0.2em 0.2em 0.2em black;
+    box-shadow: 0.2em 0.2em 1em grey;
     border-radius: 15px;
     color: black;
     background-color: #E8D5C4;
@@ -106,8 +112,12 @@ section::-webkit-scrollbar-thumb {
 .skills_main-skills,
 .skills_soft-skills {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+
+.imgOnClick {
+    width: 10%;
+    height: 25%;
 }
 
 img {
@@ -115,12 +125,25 @@ img {
     height: 100%;
 }
 
+
+
 .career_cged a {
     display: contents;
 }
 
 h2 {
     text-align: start;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.title_section {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 p {
@@ -194,7 +217,6 @@ footer p {
         align-items: center;
         justify-content: center;
         font-size: small;
-
     }
 
     main {
