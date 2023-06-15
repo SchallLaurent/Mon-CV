@@ -277,6 +277,9 @@ footer p {
     .formation,.hobbies {
         border-radius: 0;
     }
+    section {
+        overflow: none;
+    }
 }
 
 
